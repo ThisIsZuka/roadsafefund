@@ -10,7 +10,7 @@ import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Switch } from '@/components/ui/switch';
-import { StoreClientTopbar } from '@/app/(protected)/store-client/components/common/topbar';
+import { StoreClientTopbar } from '@/app/admin/store-client/components/common/topbar';
 
 export function HeaderTopbar() {
   const pathname = usePathname();

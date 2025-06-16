@@ -54,7 +54,7 @@ export default function Page() {
         const errorData = JSON.parse(response.error);
         setError(errorData.message);
       } else {
-        router.push('/');
+        router.push('/admin');
       }
     } catch (err) {
       setError(
@@ -75,23 +75,23 @@ export default function Page() {
       >
         <div className="space-y-1.5 pb-3">
           <h1 className="text-2xl font-semibold tracking-tight text-center">
-            Sign in to Metronic
+            Road Safe Fund
           </h1>
         </div>
 
-        <Alert size="sm" close={false}>
+        {/* <Alert size="sm" close={false}>
           <AlertIcon>
             <RiErrorWarningFill className="text-primary" />
           </AlertIcon>
           <AlertTitle className="text-accent-foreground">
             Use <span className="text-mono font-semibold">demo@kt.com</span>{' '}
-            username and{' '}
+            email and{' '}
             <span className="text-mono font-semibold">demo123</span> for demo
             access.
           </AlertTitle>
-        </Alert>
+        </Alert> */}
 
-        <div className="flex flex-col gap-3.5">
+        {/* <div className="flex flex-col gap-3.5">
           <Button
             variant="outline"
             type="button"
@@ -100,14 +100,14 @@ export default function Page() {
             <Icons.googleColorful className="size-5! opacity-100!" /> Sign in
             with Google
           </Button>
-        </div>
+        </div> */}
 
         <div className="relative py-1.5">
           <div className="absolute inset-0 flex items-center">
             <span className="w-full border-t" />
           </div>
           <div className="relative flex justify-center text-xs uppercase">
-            <span className="bg-background px-2 text-muted-foreground">or</span>
+            <span className="bg-background px-2 text-muted-foreground">sign in</span>
           </div>
         </div>
 
@@ -125,7 +125,7 @@ export default function Page() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>email</FormLabel>
               <FormControl>
                 <Input placeholder="Your email" {...field} />
               </FormControl>
@@ -141,12 +141,12 @@ export default function Page() {
             <FormItem>
               <div className="flex justify-between items-center gap-2.5">
                 <FormLabel>Password</FormLabel>
-                <Link
+                {/* <Link
                   href="/reset-password"
                   className="text-sm font-semibold text-foreground hover:text-primary"
                 >
                   Forgot Password?
-                </Link>
+                </Link> */}
               </div>
               <div className="relative">
                 <Input
@@ -178,7 +178,7 @@ export default function Page() {
           )}
         />
 
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center justify-end space-x-2">
           <FormField
             control={form.control}
             name="rememberMe"
@@ -210,7 +210,7 @@ export default function Page() {
           </Button>
         </div>
 
-        <p className="text-sm text-muted-foreground text-center">
+        {/* <p className="text-sm text-muted-foreground text-center">
           Don&apos;t have an account?{' '}
           <Link
             href="/signup"
@@ -218,7 +218,7 @@ export default function Page() {
           >
             Sign Up
           </Link>
-        </p>
+        </p> */}
       </form>
     </Form>
   );

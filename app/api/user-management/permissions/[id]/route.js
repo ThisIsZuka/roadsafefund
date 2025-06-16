@@ -4,7 +4,7 @@ import { getClientIP } from '@/lib/api';
 import { isUnique } from '@/lib/db';
 import { prisma } from '@/lib/prisma';
 import { systemLog } from '@/services/system-log';
-import { PermissionSchema } from '@/app/(protected)/user-management/permissions/forms/permission-schema';
+import { PermissionSchema } from '@/app/admin/user-management/permissions/forms/permission-schema';
 import authOptions from '@/app/api/auth/[...nextauth]/auth-options';
 
 // GET: Fetch a specific permission by ID

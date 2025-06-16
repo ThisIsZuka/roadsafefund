@@ -15,7 +15,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover';
-import { StoreClientTopbar } from '@/app/(protected)/store-client/components/common/topbar';
+import { StoreClientTopbar } from '@/app/admin/store-client/components/common/topbar';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { Sidebar } from './components/sidebar';

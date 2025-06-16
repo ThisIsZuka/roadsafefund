@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
-import { StoreClientTopbar } from '@/app/(protected)/store-client/components/common/topbar';
+import { StoreClientTopbar } from '@/app/admin/store-client/components/common/topbar';
 
 export function HeaderTopbar() {
   const pathname = usePathname();

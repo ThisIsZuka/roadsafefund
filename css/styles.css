@@ -1,3 +1,18 @@
+/** Tailwind Core **/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-customPurple {
+    color: #7e6baf;
+  }
+
+  .border-customPurple {
+    border-color: #7e6baf;
+  }
+}
+
 /* Tailwind Core */
 @import 'tailwindcss';
 

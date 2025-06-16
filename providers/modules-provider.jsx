@@ -1,7 +1,7 @@
 'use client';
 
-import { StoreClientProvider } from '@/app/(protected)/store-client/components/context';
-import { StoreClientWrapper } from '@/app/(protected)/store-client/components/wrapper';
+import { StoreClientProvider } from '@/app/admin/store-client/components/context';
+import { StoreClientWrapper } from '@/app/admin/store-client/components/wrapper';
 
 export function ModulesProvider({ children }) {
   return (

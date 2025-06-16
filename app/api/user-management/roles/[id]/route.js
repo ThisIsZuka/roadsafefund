@@ -4,7 +4,7 @@ import { getClientIP } from '@/lib/api';
 import { isUnique } from '@/lib/db';
 import { prisma } from '@/lib/prisma';
 import { systemLog } from '@/services/system-log';
-import { RoleSchema } from '@/app/(protected)/user-management/roles/forms/role-schema';
+import { RoleSchema } from '@/app/admin/user-management/roles/forms/role-schema';
 import authOptions from '@/app/api/auth/[...nextauth]/auth-options';
 
 // GET: Fetch a specific role by ID, including permissions

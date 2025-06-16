@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { UserDropdownMenu } from '@/partials/topbar/user-dropdown-menu';
 import { ArrowUp, Crown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { StoreClientTopbar } from '@/app/(protected)/store-client/components/common/topbar';
+import { StoreClientTopbar } from '@/app/admin/store-client/components/common/topbar';
 
 const HeaderTopbar = () => {
   const pathname = usePathname();

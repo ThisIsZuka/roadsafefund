@@ -3,7 +3,7 @@ import { getServerSession } from 'next-auth/next';
 import { getClientIP } from '@/lib/api';
 import { prisma } from '@/lib/prisma';
 import { systemLog } from '@/services/system-log';
-import { UserAddSchema } from '@/app/(protected)/user-management/users/forms/user-add-schema';
+import { UserAddSchema } from '@/app/admin/user-management/users/forms/user-add-schema';
 import authOptions from '@/app/api/auth/[...nextauth]/auth-options';
 import { UserStatus } from '@/app/models/user';
 

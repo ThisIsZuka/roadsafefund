@@ -119,9 +119,35 @@ export const MENU_SIDEBAR = [
     icon: Settings,
     children: [
       {
-        title: 'Account',
+        title: 'Account 55',
         children: [
-          { title: 'Get Started', path: '/account/home/get-started' },
+          {
+            title: 'Get Started',
+            children: [
+              { title: 'Get Started', path: '/account/home/get-started' },
+              { title: 'User Profile', path: '/account/home/user-profile' },
+              {
+                title: 'Company Profile',
+                path: '/account/home/company-profile',
+              },
+              {
+                title: 'Settings - With Sidebar',
+                children: [
+                  { title: 'Get Started', path: '/account/home/get-started' },
+                  { title: 'User Profile', path: '/account/home/user-profile' },
+                  {
+                    title: 'Company Profile',
+                    children: [
+                      {
+                        title: 'Settings - With Sidebar',
+                        path: '/account/home/settings-sidebar',
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
           { title: 'User Profile', path: '/account/home/user-profile' },
           { title: 'Company Profile', path: '/account/home/company-profile' },
           {
@@ -384,6 +410,90 @@ export const MENU_SIDEBAR = [
   { title: 'Store - Services', icon: Codepen, disabled: true },
   { title: 'AI Promt', icon: Theater, disabled: true },
   { title: 'Invoice Generator', icon: ScrollText, disabled: true },
+
+  {
+    id: 'DEMO',
+    title: 'demo navb',
+    icon: Settings,
+    children: [
+      {
+        title: 'หน้าแรก',
+        path: '/',
+      },
+      {
+        title: 'ข่าวสาร',
+        path: '/news',
+      },
+      {
+        title: 'เลขสวยช่วยเหลือผู้พิการ',
+        children: [
+          {
+            title: 'คู่มือลักษณะอุปกรณ์ฯ',
+            path: '/manuals/device-features',
+          },
+          {
+            title: 'ผู้จำหน่ายอุปกรณ์',
+            path: '/manuals/sellers',
+          },
+          {
+            title: 'ขั้นตอนการยื่นคำขอ',
+            path: '/manuals/application-process',
+          },
+          { title: 'แบบคำขอ/ใบรับรองแพทย์', path: '/manuals/forms' },
+        ],
+      },
+      {
+        title: 'เลขสวยช่วยลดอุบัติเหตุ',
+        children: [
+          {
+            title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2560',
+            path: '/projects/y-2560',
+          },
+          {
+            title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2561',
+            path: '/projects/y-2561',
+          },
+          {
+            title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2562',
+            path: '/projects/y-2562',
+          },
+          { 
+            title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2563', 
+            path: '/projects/y-2563' 
+          },
+        ],
+      },
+      {
+        title: 'เกี่ยวกับ กปถ.',
+        path: '/about',
+      },
+      {
+        title: 'รายงานประจำปี กปถ.',
+        children: [
+          {
+            title: 'รายงานประจำปี 2568',
+            path: '/reports/y-2568',
+          },
+          {
+            title: 'รายงานประจำปี 2567',
+            path: '/reports/y-2567',
+          },
+          {
+            title: 'รายงานประจำปี 2566',
+            path: '/reports/y-2566',
+          },
+          { 
+            title: 'รายงานประจำปี 2565', 
+            path: '/reports/y-2565' 
+          },
+        ],
+      },
+      {
+        title: 'วารสารกองทุน',
+        path: '/magazines',
+      },
+    ],
+  },
 ];
 
 export const MENU_SIDEBAR_CUSTOM = [
