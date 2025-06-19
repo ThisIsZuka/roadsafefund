@@ -44,7 +44,8 @@ export function FrontendLayout({ children }) {
   return (
     <>
       <div className="flex grow flex-col in-data-[sticky-header=on]:pt-(--header-height-default)">
-        <Header />
+        {/* <Header /> */}
+        {isMobile && <Header />}
 
         {!isMobile && <Navbar />}
 
@@ -52,7 +53,8 @@ export function FrontendLayout({ children }) {
           {/* {!pathname.includes('/public-profile/') &&
             !pathname.includes('/user-management') &&
             !pathname.includes('/store-client') && ( */}
-          <Toolbar>
+
+          {/* <Toolbar>
             <ToolbarHeading />
             <ToolbarActions>
               <Popover>
@@ -85,7 +87,8 @@ export function FrontendLayout({ children }) {
                 </PopoverContent>
               </Popover>
             </ToolbarActions>
-          </Toolbar>
+          </Toolbar> */}
+          
           {/* )} */}
           {children}
         </main>

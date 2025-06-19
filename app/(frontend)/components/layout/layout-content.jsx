@@ -9,9 +9,19 @@ import { ReportSettings } from '../../account/security/privacy-settings/componen
 import { EntryCallout, Teams } from '../demo1/light-sidebar';
 import { Integrations, ManageData, MyBalance, Options } from './components';
 
+import {
+  SwiperCarousel,
+  Tokens3dArt,
+} from './components';
+
 export function LayoutContent() {
   return (
     <div className="grid gap-5 lg:gap-7.5">
+
+      <SwiperCarousel />
+
+      <Tokens3dArt />
+
       <Accordion type="single" collapsible className="w-full lg:w-[75%]">
         <AccordionItem value="crudhunt-1">
           <AccordionTrigger>What is Crudhunt?</AccordionTrigger>
