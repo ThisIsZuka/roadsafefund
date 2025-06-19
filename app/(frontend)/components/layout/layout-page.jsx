@@ -3,8 +3,6 @@ import { LayoutContent } from '.';
 
 export function LayoutPage() {
   return (
-    <Container>
-      <LayoutContent />
-    </Container>
+     <LayoutContent />
   );
 }

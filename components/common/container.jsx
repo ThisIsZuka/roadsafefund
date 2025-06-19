@@ -4,10 +4,10 @@ import { cva } from 'class-variance-authority';
 import { cn } from '@/lib/utils';
 import { useSettings } from '@/providers/settings-provider';
 
-const containerVariants = cva('w-full mx-auto px-4 lg:px-6', {
+const containerVariants = cva('w-full mx-auto px-4 lg:px-8 2xl:px-12', {
   variants: {
     width: {
-      fixed: 'max-w-[1320px]',
+      fixed: 'max-w-[1600px]',
       fluid: '',
     },
   },
