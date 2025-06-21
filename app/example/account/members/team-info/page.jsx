@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountTeamInfoContent } from '@/app/admin/account/members/team-info/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountTeamInfoContent } from '@/app/example/account/members/team-info/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountTeamInfoPage() {
   const { settings } = useSettings();

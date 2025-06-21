@@ -1,7 +1,7 @@
 'use client';
 
 import { Container } from '@/components/common/container';
-import { OrderReceiptContent } from '@/app/admin/store-client/order-receipt/content';
+import { OrderReceiptContent } from '@/app/example/store-client/order-receipt/content';
 
 export default function OrderReceiptPage() {
   return (

@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountPermissionsCheckContent } from '@/app/admin/account/members/permissions-check/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountPermissionsCheckContent } from '@/app/example/account/members/permissions-check/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountPermissionsCheckPage() {
   const { settings } = useSettings();

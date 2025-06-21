@@ -92,7 +92,7 @@ const data = [
       userName: 'Tyler Hero',
       userGmail: 'tyler.hero@gmail.com',
     },
-    role: 'Super Admin',
+    role: 'Super example',
     status: {
       label: 'In Office',
       color: 'success',
@@ -124,7 +124,7 @@ const data = [
       userName: 'Leslie Alexander',
       userGmail: 'leslie.alexander@gmail.com',
     },
-    role: 'Super Admin',
+    role: 'Super example',
     status: {
       label: 'In Office',
       color: 'success',
@@ -396,7 +396,7 @@ const data = [
       userName: 'Theresa Webb',
       userGmail: 'theresa.webb@gmail.com',
     },
-    role: 'Admin',
+    role: 'example',
     status: {
       label: 'On Leave',
       color: 'destructive',
@@ -508,7 +508,7 @@ const data = [
       userName: 'Steven Harris',
       userGmail: 'steven.harris@gmail.com',
     },
-    role: 'Admin',
+    role: 'example',
     status: {
       label: 'Remote',
       color: 'primary',

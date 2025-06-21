@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountApiKeysContent } from '@/app/admin/account/api-keys/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountApiKeysContent } from '@/app/example/account/api-keys/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountApiKeysPage() {
   const { settings } = useSettings();

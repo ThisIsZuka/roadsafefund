@@ -15,8 +15,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
-import { ProfileFeedsContent } from '@/app/admin/public-profile/profiles/feeds/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
+import { ProfileFeedsContent } from '@/app/example/public-profile/profiles/feeds/content';
 
 export default function ProfileFeedsPage() {
   const image = (

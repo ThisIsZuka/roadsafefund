@@ -6,7 +6,7 @@ import { Faq } from '@/partials/common/faq';
 import { HighlightedPosts } from '@/partials/common/highlighted-posts';
 import { ShieldCheck, ToggleRight, UserCog } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
-import { Members } from '@/app/admin/account/members/permissions-toggle/components/members';
+import { Members } from '@/app/example/account/members/permissions-toggle/components/members';
 import { PermissionsCheck } from './components';
 
 export function AccountPermissionsCheckContent() {

@@ -38,7 +38,7 @@ const Import = () => {
     {
       label: 'Include external IDs in import results',
       description:
-        'By including external IDs in the import results, administrators can more easily reconcile and track user records across different systems and databases.',
+        'By including external IDs in the import results, exampleistrators can more easily reconcile and track user records across different systems and databases.',
       checked: false,
     },
   ];

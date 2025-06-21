@@ -5,8 +5,8 @@ import { Faq } from '@/partials/common/faq';
 import { HighlightedPosts } from '@/partials/common/highlighted-posts';
 import { Image, Link2, MousePointer, Smile } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
-import { Branding } from '@/app/admin/account/home/company-profile/components/branding';
-import { AdvancedSettingsAppearance } from '@/app/admin/account/home/settings-sidebar/components/advanced-settings-appearance';
+import { Branding } from '@/app/example/account/home/company-profile/components/branding';
+import { AdvancedSettingsAppearance } from '@/app/example/account/home/settings-sidebar/components/advanced-settings-appearance';
 import { Accessibility, DisableDefaultBrand } from './components';
 
 export function AccountAppearanceContent() {

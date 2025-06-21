@@ -11,8 +11,8 @@ import {
 import { WelcomeMessageDialog } from '@/partials/dialogs/welcome-message-dialog';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountGetStartedContent } from '@/app/admin/account/home/get-started/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountGetStartedContent } from '@/app/example/account/home/get-started/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AuthWelcomeMessagePage() {
   const [profileModalOpen, setProfileModalOpen] = useState(true);

@@ -1,7 +1,7 @@
 'use client';
 
 import { Container } from '@/components/common/container';
-import { SearchResultsGridContent } from '@/app/admin/store-client/search-results-grid/content';
+import { SearchResultsGridContent } from '@/app/example/store-client/search-results-grid/content';
 
 export default function SearchResultsGridPage() {
   return (

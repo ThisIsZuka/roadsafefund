@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
-import { AccountPrivacySettingsContent } from '@/app/admin/account/security/privacy-settings/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
+import { AccountPrivacySettingsContent } from '@/app/example/account/security/privacy-settings/content';
 
 export default function AccountPrivacySettingsPage() {
   const { settings } = useSettings();

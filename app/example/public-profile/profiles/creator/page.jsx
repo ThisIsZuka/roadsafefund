@@ -16,8 +16,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
-import { ProfileCreatorContent } from '@/app/admin/public-profile/profiles/creator/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
+import { ProfileCreatorContent } from '@/app/example/public-profile/profiles/creator/content';
 
 export default function ProfileCreatorPage() {
   const image = (

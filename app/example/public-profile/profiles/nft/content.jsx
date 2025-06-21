@@ -1,6 +1,6 @@
 'use client';
 
-import { CommunityBadges } from '@/app/admin/public-profile/profiles/default/components/community-badges';
+import { CommunityBadges } from '@/app/example/public-profile/profiles/default/components/community-badges';
 import {
   About,
   Assets,

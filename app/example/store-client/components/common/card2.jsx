@@ -5,7 +5,7 @@ import { toAbsoluteUrl } from '@/lib/helpers';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { useStoreClient } from '@/app/admin/store-client/components/context';
+import { useStoreClient } from '@/app/example/store-client/components/context';
 
 export function Card2({ badge, logo, title, total, star, label }) {
   const { showCartSheet, showProductDetailsSheet } = useStoreClient();

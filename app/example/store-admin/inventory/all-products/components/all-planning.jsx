@@ -49,8 +49,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { StoreAdminCreateShippingLabelSheet } from '@/app/admin/store-admin/components/create-shipping-label-sheet/sheet';
-import { StoreAdminTrackShippingSheet } from '@/app/admin/store-admin/components/track-shipping-sheet';
+import { StoreexampleCreateShippingLabelSheet } from '@/app/example/store-example/components/create-shipping-label-sheet/sheet';
+import { StoreexampleTrackShippingSheet } from '@/app/example/store-example/components/track-shipping-sheet';
 
 const data = [
   {
@@ -781,12 +781,12 @@ export function AllPlanning() {
               Create Shipping Label
             </Button>
 
-            <StoreAdminTrackShippingSheet
+            <StoreexampleTrackShippingSheet
               open={isTrackShippingSheetOpen}
               onOpenChange={handleTrackShippingSheetClose}
             />
 
-            <StoreAdminCreateShippingLabelSheet
+            <StoreexampleCreateShippingLabelSheet
               open={isCreateShippingLabelSheetOpen}
               onOpenChange={handleCreateShippingLabelSheetClose}
             />

@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkMiniCardsContent } from '@/app/admin/network/user-cards/mini-cards/content';
+import { NetworkMiniCardsContent } from '@/app/example/network/user-cards/mini-cards/content';
 
 export default function NetworkMiniCardsPage() {
   const { settings } = useSettings();

@@ -11,8 +11,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountBasicContent } from '@/app/admin/account/billing/basic/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountBasicContent } from '@/app/example/account/billing/basic/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountBasicPage() {
   const { settings } = useSettings();

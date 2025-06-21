@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { StoreClientCartSheet } from '@/app/admin/store-client/components/sheets/cart-sheet';
-import { SearchResults } from '@/app/admin/store-client/search-results-grid/components/search-results';
+import { StoreClientCartSheet } from '@/app/example/store-client/components/sheets/cart-sheet';
+import { SearchResults } from '@/app/example/store-client/search-results-grid/components/search-results';
 
 export function CartContent() {
   const [open, setOpen] = useState(true);

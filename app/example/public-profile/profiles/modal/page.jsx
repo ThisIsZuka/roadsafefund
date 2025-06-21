@@ -14,8 +14,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
-import { ProfileModalContent } from '@/app/admin/public-profile/profiles/modal/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
+import { ProfileModalContent } from '@/app/example/public-profile/profiles/modal/content';
 
 export default function ProfileModalPage() {
   const image = (

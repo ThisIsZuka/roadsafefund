@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkAuthorContent } from '@/app/admin/network/user-cards/author/content';
+import { NetworkAuthorContent } from '@/app/example/network/user-cards/author/content';
 
 export default function NetworkAuthorPage() {
   const { settings } = useSettings();

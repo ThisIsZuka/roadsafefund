@@ -6,10 +6,10 @@ import {
   RiYoutubeLine,
 } from '@remixicon/react';
 import { Dribbble, Mail } from 'lucide-react';
-import { Connections } from '@/app/admin/public-profile/profiles/default/components/connections';
-import { Contributions } from '@/app/admin/public-profile/profiles/default/components/contributions';
-import { Projects } from '@/app/admin/public-profile/profiles/default/components/projects';
-import { Tags } from '@/app/admin/public-profile/profiles/default/components/tags';
+import { Connections } from '@/app/example/public-profile/profiles/default/components/connections';
+import { Contributions } from '@/app/example/public-profile/profiles/default/components/contributions';
+import { Projects } from '@/app/example/public-profile/profiles/default/components/projects';
+import { Tags } from '@/app/example/public-profile/profiles/default/components/tags';
 import {
   CompanyProfile,
   Highlights,

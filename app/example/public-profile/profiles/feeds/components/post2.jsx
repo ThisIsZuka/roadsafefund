@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import { Card } from '@/components/ui/card';
-import { Comments } from '@/app/admin/public-profile/profiles/feeds/post/comments';
-import { Heading } from '@/app/admin/public-profile/profiles/feeds/post/heading';
-import { Likes } from '@/app/admin/public-profile/profiles/feeds/post/likes';
-import { Saves } from '@/app/admin/public-profile/profiles/feeds/post/saves';
-import { Tabs } from '@/app/admin/public-profile/profiles/feeds/post/tabs';
+import { Comments } from '@/app/example/public-profile/profiles/feeds/post/comments';
+import { Heading } from '@/app/example/public-profile/profiles/feeds/post/heading';
+import { Likes } from '@/app/example/public-profile/profiles/feeds/post/likes';
+import { Saves } from '@/app/example/public-profile/profiles/feeds/post/saves';
+import { Tabs } from '@/app/example/public-profile/profiles/feeds/post/tabs';
 
 const Post2 = () => {
   const [activeTab, setActiveTab] = useState('saves');

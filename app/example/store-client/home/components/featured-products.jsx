@@ -1,6 +1,6 @@
 'use client';
 
-import { Card1 } from '@/app/admin/store-client/components/common/card1';
+import { Card1 } from '@/app/example/store-client/components/common/card1';
 
 export function FeaturedProducts() {
   return (

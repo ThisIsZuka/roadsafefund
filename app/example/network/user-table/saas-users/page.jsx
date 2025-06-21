@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkSaasUsersContent } from '@/app/admin/network/user-table/saas-users/content';
+import { NetworkSaasUsersContent } from '@/app/example/network/user-table/saas-users/content';
 
 export default function NetworkSaasUsersPage() {
   const { settings } = useSettings();

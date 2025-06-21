@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkSocialContent } from '@/app/admin/network/user-cards/social/content';
+import { NetworkSocialContent } from '@/app/example/network/user-cards/social/content';
 
 export default function NetworkSocialPage() {
   const { settings } = useSettings();

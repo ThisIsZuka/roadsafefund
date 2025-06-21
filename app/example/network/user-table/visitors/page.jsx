@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkVisitorsContent } from '@/app/admin/network/user-table/visitors/content';
+import { NetworkVisitorsContent } from '@/app/example/network/user-table/visitors/content';
 
 export default function NetworkVisitorsPage() {
   const { settings } = useSettings();

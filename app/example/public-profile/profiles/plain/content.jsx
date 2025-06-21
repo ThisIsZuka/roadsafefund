@@ -6,9 +6,9 @@ import {
   RiYoutubeLine,
 } from '@remixicon/react';
 import { Dribbble, LoaderPinwheel, Mail } from 'lucide-react';
-import { Network } from '@/app/admin/public-profile/profiles/company/components/network';
-import { Statistics } from '@/app/admin/public-profile/profiles/company/components/statistics';
-import { Tags } from '@/app/admin/public-profile/profiles/default/components/tags';
+import { Network } from '@/app/example/public-profile/profiles/company/components/network';
+import { Statistics } from '@/app/example/public-profile/profiles/company/components/statistics';
+import { Tags } from '@/app/example/public-profile/profiles/default/components/tags';
 import { AboutMe, GettingStarted, OpenToWork } from './components';
 
 export function ProfilePlainContent() {

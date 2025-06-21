@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkGetStartedContent } from '@/app/admin/network/get-started/content';
+import { NetworkGetStartedContent } from '@/app/example/network/get-started/content';
 
 export default function NetworkGetStartedPage() {
   const { settings } = useSettings();

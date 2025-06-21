@@ -13,9 +13,9 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { Card2 } from '@/app/admin/store-client/components/common/card2';
-import { Card3 } from '@/app/admin/store-client/components/common/card3';
-import { StoreClientFiltersSheet } from '@/app/admin/store-client/components/sheets/filters-sheet';
+import { Card2 } from '@/app/example/store-client/components/common/card2';
+import { Card3 } from '@/app/example/store-client/components/common/card3';
+import { StoreClientFiltersSheet } from '@/app/example/store-client/components/sheets/filters-sheet';
 
 export function SearchResults({ mode }) {
   const [searchInput, setSearchInput] = useState('');

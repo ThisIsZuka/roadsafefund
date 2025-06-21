@@ -9,7 +9,7 @@ import {
   Settings,
   ShieldOff,
 } from 'lucide-react';
-import { Options } from '@/app/admin/account/home/get-started/components/options';
+import { Options } from '@/app/example/account/home/get-started/components/options';
 
 export function AccountSecurityGetStartedContent() {
   const items = [

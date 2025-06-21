@@ -20,7 +20,7 @@ const Roles = () => {
         stroke: 'stroke-blue-200 dark:stroke-blue-950',
         fill: 'fill-blue-50 dark:fill-blue-950/30',
       },
-      title: 'Administrator',
+      title: 'exampleistrator',
       subTitle: 'Default role',
       description:
         'Manages system settings and user access, ensures system stability.',

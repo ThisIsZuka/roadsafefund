@@ -15,8 +15,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
-import { ProfileCRMContent } from '@/app/admin/public-profile/profiles/crm/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
+import { ProfileCRMContent } from '@/app/example/public-profile/profiles/crm/content';
 
 export default function ProfileCRMPage() {
   const image = (

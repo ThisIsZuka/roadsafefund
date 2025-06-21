@@ -1,10 +1,10 @@
 'use client';
 
-import { Statistics } from '@/app/admin/public-profile/profiles/creator/components/statistics';
-import { Summary } from '@/app/admin/public-profile/profiles/creator/components/summary';
-import { CommunityBadges } from '@/app/admin/public-profile/profiles/default/components/community-badges';
-import { Tags } from '@/app/admin/public-profile/profiles/default/components/tags';
-import { UnlockPartnerships } from '@/app/admin/public-profile/profiles/default/components/unlock-partnerships';
+import { Statistics } from '@/app/example/public-profile/profiles/creator/components/statistics';
+import { Summary } from '@/app/example/public-profile/profiles/creator/components/summary';
+import { CommunityBadges } from '@/app/example/public-profile/profiles/default/components/community-badges';
+import { Tags } from '@/app/example/public-profile/profiles/default/components/tags';
+import { UnlockPartnerships } from '@/app/example/public-profile/profiles/default/components/unlock-partnerships';
 import { Activity, Collaborate, Posts, Replies } from './components';
 
 export function ProfileBloggerContent() {

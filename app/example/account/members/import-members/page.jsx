@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountImportMembersContent } from '@/app/admin/account/members/import-members/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountImportMembersContent } from '@/app/example/account/members/import-members/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountImportMembersPage() {
   const { settings } = useSettings();

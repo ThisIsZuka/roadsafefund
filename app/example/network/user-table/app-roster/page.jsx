@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkAppRosterContent } from '@/app/admin/network/user-table/app-roster/content';
+import { NetworkAppRosterContent } from '@/app/example/network/user-table/app-roster/content';
 
 export default function NetworkAppRosterPage() {
   const { settings } = useSettings();

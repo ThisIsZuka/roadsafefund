@@ -2,10 +2,10 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Collaborate } from '@/app/admin/public-profile/profiles/blogger/components/collaborate';
-import { Statistics } from '@/app/admin/public-profile/profiles/creator/components/statistics';
-import { Summary } from '@/app/admin/public-profile/profiles/creator/components/summary';
-import { Tags } from '@/app/admin/public-profile/profiles/default/components/tags';
+import { Collaborate } from '@/app/example/public-profile/profiles/blogger/components/collaborate';
+import { Statistics } from '@/app/example/public-profile/profiles/creator/components/statistics';
+import { Summary } from '@/app/example/public-profile/profiles/creator/components/summary';
+import { Tags } from '@/app/example/public-profile/profiles/default/components/tags';
 import { Post1, Post2, Post3, Post4 } from './components';
 
 export function ProfileFeedsContent() {

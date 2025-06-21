@@ -11,8 +11,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
-import { AccountSecurityLogContent } from '@/app/admin/account/security/security-log/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
+import { AccountSecurityLogContent } from '@/app/example/account/security/security-log/content';
 
 export default function AccountSecurityLogPage() {
   const { settings } = useSettings();

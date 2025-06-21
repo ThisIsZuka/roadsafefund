@@ -1,6 +1,6 @@
 'use client';
 
-import { DeleteAccount } from '@/app/admin/account/home/settings-sidebar/components/delete-account';
+import { DeleteAccount } from '@/app/example/account/home/settings-sidebar/components/delete-account';
 import { BasicSettings, Password } from './components';
 
 export function AccountSettingsPlainContent() {

@@ -2,10 +2,10 @@
 'use client';
 
 import * as React from 'react';
-import { useStoreClient } from '@/app/admin/store-client/components/context';
-import { StoreClientCartSheet } from '@/app/admin/store-client/components/sheets/cart-sheet';
-import { StoreClientProductDetailsSheet } from '@/app/admin/store-client/components/sheets/product-details-sheet';
-import { StoreClientWishlistSheet } from '@/app/admin/store-client/components/sheets/wishlist-sheet';
+import { useStoreClient } from '@/app/example/store-client/components/context';
+import { StoreClientCartSheet } from '@/app/example/store-client/components/sheets/cart-sheet';
+import { StoreClientProductDetailsSheet } from '@/app/example/store-client/components/sheets/product-details-sheet';
+import { StoreClientWishlistSheet } from '@/app/example/store-client/components/sheets/wishlist-sheet';
 
 export function StoreClientWrapper({ children }) {
   const {

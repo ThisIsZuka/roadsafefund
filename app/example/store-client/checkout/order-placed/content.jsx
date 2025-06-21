@@ -1,10 +1,10 @@
 'use client';
 
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { Info } from '@/app/admin/store-client/checkout/order-placed/components/info';
-import { Payment } from '@/app/admin/store-client/checkout/order-placed/components/payment';
-import { Order } from '@/app/admin/store-client/checkout/order-summary/components/order';
-import { Card4 } from '@/app/admin/store-client/components/common/card4';
+import { Info } from '@/app/example/store-client/checkout/order-placed/components/info';
+import { Payment } from '@/app/example/store-client/checkout/order-placed/components/payment';
+import { Order } from '@/app/example/store-client/checkout/order-summary/components/order';
+import { Card4 } from '@/app/example/store-client/components/common/card4';
 
 export function OrderPlacedContent() {
   return (

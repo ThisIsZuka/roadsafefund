@@ -15,8 +15,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { ProfileActivityContent } from '@/app/admin/public-profile/activity/content';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
+import { ProfileActivityContent } from '@/app/example/public-profile/activity/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
 
 export default function ProfileActivityPage() {
   const image = (

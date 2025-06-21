@@ -5,7 +5,7 @@ import { Engage } from '@/partials/common/engage';
 import { HighlightedPosts } from '@/partials/common/highlighted-posts';
 import { BookUser, MessageCirclePlus, Users } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
-import { InviteWithLink } from '@/app/admin/account/members/team-members/components/invite-with-link';
+import { InviteWithLink } from '@/app/example/account/members/team-members/components/invite-with-link';
 import { InvitePeople, Invites } from './components';
 
 export function AccountInviteAFriendContent() {

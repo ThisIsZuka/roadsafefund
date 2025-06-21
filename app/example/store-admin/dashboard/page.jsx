@@ -11,7 +11,7 @@ import {
 } from '@/partials/common/toolbar';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { DashboardContent } from '@/app/admin/store-admin/dashboard/content';
+import { DashboardContent } from '@/app/example/store-example/dashboard/content';
 
 export default function DashboardPage() {
   return (

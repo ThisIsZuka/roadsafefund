@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkUserTableTeamCrewContent } from '@/app/admin/network/user-table/team-crew/content';
+import { NetworkUserTableTeamCrewContent } from '@/app/example/network/user-table/team-crew/content';
 
 export default function NetworkUserTableTeamCrewPage() {
   const { settings } = useSettings();

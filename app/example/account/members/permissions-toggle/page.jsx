@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountPermissionsToggleContent } from '@/app/admin/account/members/permissions-toggle/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountPermissionsToggleContent } from '@/app/example/account/members/permissions-toggle/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountPermissionsTogglePage() {
   const { settings } = useSettings();

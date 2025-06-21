@@ -1,7 +1,7 @@
 'use client';
 
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { Card4 } from '@/app/admin/store-client/components/common/card4';
+import { Card4 } from '@/app/example/store-client/components/common/card4';
 
 export function MyOrders() {
   return (

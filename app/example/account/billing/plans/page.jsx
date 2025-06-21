@@ -9,8 +9,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountPlansContent } from '@/app/admin/account/billing/plans/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountPlansContent } from '@/app/example/account/billing/plans/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountPlansPage() {
   const { settings } = useSettings();

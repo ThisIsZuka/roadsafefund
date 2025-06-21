@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
-import { AccountAllowedIPAddressesContent } from '@/app/admin/account/security/allowed-ip-addresses/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
+import { AccountAllowedIPAddressesContent } from '@/app/example/account/security/allowed-ip-addresses/content';
 
 export default function AccountAllowedIPAddressesPage() {
   const { settings } = useSettings();

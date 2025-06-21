@@ -15,8 +15,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
-import { ProfileBloggerContent } from '@/app/admin/public-profile/profiles/blogger/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
+import { ProfileBloggerContent } from '@/app/example/public-profile/profiles/blogger/content';
 
 export default function ProfileBloggerPage() {
   const image = (

@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkStoreClientsContent } from '@/app/admin/network/user-table/store-clients/content';
+import { NetworkStoreClientsContent } from '@/app/example/network/user-table/store-clients/content';
 
 export default function NetworkStoreClientsPage() {
   const { settings } = useSettings();

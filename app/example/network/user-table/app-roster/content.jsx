@@ -2,7 +2,7 @@
 
 import { Faq } from '@/partials/common/faq';
 import { Help2 } from '@/partials/common/help2';
-import { Users } from '@/app/admin/network/user-table/app-roster/components/users';
+import { Users } from '@/app/example/network/user-table/app-roster/components/users';
 
 export function NetworkAppRosterContent() {
   return (

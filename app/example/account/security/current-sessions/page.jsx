@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
-import { AccountCurrentSessionsContent } from '@/app/admin/account/security/current-sessions/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
+import { AccountCurrentSessionsContent } from '@/app/example/account/security/current-sessions/content';
 
 export default function AccountCurrentSessionsPage() {
   const { settings } = useSettings();

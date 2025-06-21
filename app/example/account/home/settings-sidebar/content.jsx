@@ -6,7 +6,7 @@ import { useIsMobile } from '@/hooks/use-mobile';
 import { useScrollPosition } from '@/hooks/use-scroll-position';
 import { useSettings } from '@/providers/settings-provider';
 import { Scrollspy } from '@/components/ui/scrollspy';
-import { AccountSettingsSidebar } from '@/app/admin/account/home/settings-sidebar/account-basic-sidebar';
+import { AccountSettingsSidebar } from '@/app/example/account/home/settings-sidebar/account-basic-sidebar';
 import {
   AdvancedSettingsAddress,
   AdvancedSettingsAppearance,

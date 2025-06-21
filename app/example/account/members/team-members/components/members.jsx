@@ -67,7 +67,7 @@ const data = [
       name: 'Tyler Hero',
       tasks: '26',
     },
-    roles: ['Admin', 'Support', 'Editor'],
+    roles: ['example', 'Support', 'Editor'],
     location: {
       name: 'Estonia',
       flag: 'estonia.svg',
@@ -139,7 +139,7 @@ const data = [
       name: 'Leslie Alexander',
       tasks: '203',
     },
-    roles: ['Admin', 'Chat', 'Scrum Master'],
+    roles: ['example', 'Chat', 'Scrum Master'],
     location: {
       name: 'India',
       flag: 'india.svg',
@@ -193,7 +193,7 @@ const data = [
       name: 'Jerome Bell',
       tasks: '91',
     },
-    roles: ['Admin', 'Scrum Master'],
+    roles: ['example', 'Scrum Master'],
     location: {
       name: 'France',
       flag: 'france.svg',
@@ -229,7 +229,7 @@ const data = [
       name: 'Jane Cooper',
       tasks: '47',
     },
-    roles: ['Designer', 'Admin'],
+    roles: ['Designer', 'example'],
     location: {
       name: 'South Korea',
       flag: 'south-korea.svg',
@@ -283,7 +283,7 @@ const data = [
       name: 'Jacob Smith',
       tasks: '92',
     },
-    roles: ['Admin', 'Support'],
+    roles: ['example', 'Support'],
     location: {
       name: 'Australia',
       flag: 'australia.svg',
@@ -355,7 +355,7 @@ const data = [
       name: 'Ralph Edwards',
       tasks: '109',
     },
-    roles: ['Admin', 'Scrum Master'],
+    roles: ['example', 'Scrum Master'],
     location: {
       name: 'Spain',
       flag: 'spain.svg',
@@ -409,7 +409,7 @@ const data = [
       name: 'Guy Hawkins',
       tasks: '68',
     },
-    roles: ['Admin', 'Support'],
+    roles: ['example', 'Support'],
     location: {
       name: 'Estonia',
       flag: 'estonia.svg',
@@ -481,7 +481,7 @@ const data = [
       name: 'Kathryn Murphy',
       tasks: '85',
     },
-    roles: ['Admin', 'Scrum Master'],
+    roles: ['example', 'Scrum Master'],
     location: {
       name: 'Japan',
       flag: 'japan.svg',
@@ -535,7 +535,7 @@ const data = [
       name: 'Cameron Williamson',
       tasks: '58',
     },
-    roles: ['Admin', 'Analyst'],
+    roles: ['example', 'Analyst'],
     location: {
       name: 'Russia',
       flag: 'russia.svg',
@@ -571,7 +571,7 @@ const data = [
       name: 'Ralph Edwards',
       tasks: '109',
     },
-    roles: ['Admin', 'Scrum Master'],
+    roles: ['example', 'Scrum Master'],
     location: {
       name: 'Canada',
       flag: 'canada.svg',
@@ -625,7 +625,7 @@ const data = [
       name: '',
       tasks: '68',
     },
-    roles: ['Admin', 'Scrum Master'],
+    roles: ['example', 'Scrum Master'],
     location: {
       name: 'Ukraine',
       flag: 'ukraine.svg',

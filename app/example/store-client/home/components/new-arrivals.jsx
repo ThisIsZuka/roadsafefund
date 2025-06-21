@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card2 } from '@/app/admin/store-client/components/common/card2';
+import { Card2 } from '@/app/example/store-client/components/common/card2';
 
 export function NewArrivals() {
   const items = [

@@ -1,7 +1,7 @@
 'use client';
 
 import { Help } from '@/partials/common/help';
-import { PaymentMethods } from '@/app/admin/account/billing/basic/components/payment-methods';
+import { PaymentMethods } from '@/app/example/account/billing/basic/components/payment-methods';
 import {
   BillingInvoicing,
   CompanyProfile,

@@ -12,8 +12,8 @@ import {
 import { BaggageClaim } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { OrderSummaryContent } from '@/app/admin/store-client/checkout/order-summary/content';
-import { Steps } from '@/app/admin/store-client/checkout/steps';
+import { OrderSummaryContent } from '@/app/example/store-client/checkout/order-summary/content';
+import { Steps } from '@/app/example/store-client/checkout/steps';
 
 export default function OrderSummaryPage() {
   return (

@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import { HighlightedPosts } from '@/partials/common/highlighted-posts';
 import { ShieldCheck, ShieldOff, ShieldQuestion } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
-import { FeaturesHighlight } from '@/app/admin/public-profile/profiles/creator/components/features-highlight';
+import { FeaturesHighlight } from '@/app/example/public-profile/profiles/creator/components/features-highlight';
 import {
   Authentification,
   GeneralSettings,

@@ -11,8 +11,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountHistoryContent } from '@/app/admin/account/billing/history/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountHistoryContent } from '@/app/example/account/billing/history/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountHistoryPage() {
   const { settings } = useSettings();

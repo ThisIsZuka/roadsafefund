@@ -6,8 +6,8 @@ import { CardWork, CardWorkRow } from '@/partials/cards';
 import { LayoutGrid, List } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
-import { Offer } from '@/app/admin/public-profile/works/cards/offer';
-import { OfferRow } from '@/app/admin/public-profile/works/cards/offer-row';
+import { Offer } from '@/app/example/public-profile/works/cards/offer';
+import { OfferRow } from '@/app/example/public-profile/works/cards/offer-row';
 
 const Works = () => {
   const [activeView, setActiveView] = useState('cards');

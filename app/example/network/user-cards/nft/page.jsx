@@ -11,7 +11,7 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { NetworkNFTContent } from '@/app/admin/network/user-cards/nft/content';
+import { NetworkNFTContent } from '@/app/example/network/user-cards/nft/content';
 
 export default function NetworkNFTPage() {
   const { settings } = useSettings();

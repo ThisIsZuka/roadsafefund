@@ -10,8 +10,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountEnterpriseContent } from '@/app/admin/account/billing/enterprise/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountEnterpriseContent } from '@/app/example/account/billing/enterprise/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountEnterprisePage() {
   const { settings } = useSettings();

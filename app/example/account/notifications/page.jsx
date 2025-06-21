@@ -12,8 +12,8 @@ import {
 import { useSettings } from '@/providers/settings-provider';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { AccountNotificationsContent } from '@/app/admin/account/notifications/content';
-import { PageNavbar } from '@/app/admin/account/page-navbar';
+import { AccountNotificationsContent } from '@/app/example/account/notifications/content';
+import { PageNavbar } from '@/app/example/account/page-navbar';
 
 export default function AccountNotificationsPage() {
   const { settings } = useSettings();

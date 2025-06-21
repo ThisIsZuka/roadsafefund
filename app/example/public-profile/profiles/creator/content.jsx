@@ -2,8 +2,8 @@
 
 import { Fragment } from 'react';
 import { toAbsoluteUrl } from '@/lib/helpers';
-import { CommunityBadges } from '@/app/admin/public-profile/profiles/default/components/community-badges';
-import { Tags } from '@/app/admin/public-profile/profiles/default/components/tags';
+import { CommunityBadges } from '@/app/example/public-profile/profiles/default/components/community-badges';
+import { Tags } from '@/app/example/public-profile/profiles/default/components/tags';
 import {
   Activities,
   FeaturesHighlight,

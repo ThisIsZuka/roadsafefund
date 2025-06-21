@@ -1,6 +1,6 @@
 'use client';
 
-import { RecentUploads } from '@/app/admin/public-profile/profiles/default/components/recent-uploads';
+import { RecentUploads } from '@/app/example/public-profile/profiles/default/components/recent-uploads';
 import {
   BasicSettings,
   CalendarAccounts,

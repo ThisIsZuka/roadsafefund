@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { MoveRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Order } from '@/app/admin/store-client/checkout/order-summary/components/order';
-import { Card4 } from '@/app/admin/store-client/components/common/card4';
+import { Order } from '@/app/example/store-client/checkout/order-summary/components/order';
+import { Card4 } from '@/app/example/store-client/components/common/card4';
 
 export function OrderSummaryContent() {
   return (

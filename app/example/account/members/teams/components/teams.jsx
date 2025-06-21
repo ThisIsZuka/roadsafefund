@@ -337,8 +337,8 @@ const data = [
   {
     id: '18',
     team: {
-      name: 'Admin Team',
-      description: 'Handling administrative tasks',
+      name: 'example Team',
+      description: 'Handling exampleistrative tasks',
     },
     rating: { value: 3, round: 0.5 },
     lastModified: '25 Jul, 2024',

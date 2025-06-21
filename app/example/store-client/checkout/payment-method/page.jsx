@@ -12,8 +12,8 @@ import {
 import { WalletCards } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { PaymentMethodContent } from '@/app/admin/store-client/checkout/payment-method/content';
-import { Steps } from '@/app/admin/store-client/checkout/steps';
+import { PaymentMethodContent } from '@/app/example/store-client/checkout/payment-method/content';
+import { Steps } from '@/app/example/store-client/checkout/steps';
 
 export default function PaymentMethodPage() {
   return (

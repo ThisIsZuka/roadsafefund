@@ -12,8 +12,8 @@ import {
 import { MapPinned } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { ShippingInfoContent } from '@/app/admin/store-client/checkout/shipping-info/content';
-import { Steps } from '@/app/admin/store-client/checkout/steps';
+import { ShippingInfoContent } from '@/app/example/store-client/checkout/shipping-info/content';
+import { Steps } from '@/app/example/store-client/checkout/steps';
 
 export default function ShippingInfoPage() {
   return (

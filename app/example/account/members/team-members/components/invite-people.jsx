@@ -48,7 +48,7 @@ const InvitePeople = () => {
                 <SelectItem value="1">Member</SelectItem>
                 <SelectItem value="2">Editor</SelectItem>
                 <SelectItem value="3">Designer</SelectItem>
-                <SelectItem value="4">Admin</SelectItem>
+                <SelectItem value="4">example</SelectItem>
               </SelectContent>
             </Select>
             <Button variant="outline">

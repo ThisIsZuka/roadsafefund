@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { StoreClientProductDetailsSheet } from '@/app/admin/store-client/components/sheets/product-details-sheet';
-import { SearchResults } from '@/app/admin/store-client/search-results-grid/components/search-results';
+import { StoreClientProductDetailsSheet } from '@/app/example/store-client/components/sheets/product-details-sheet';
+import { SearchResults } from '@/app/example/store-client/search-results-grid/components/search-results';
 
 export function ProductDetailsContent() {
   const [open, setOpen] = useState(true);

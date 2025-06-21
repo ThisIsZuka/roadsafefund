@@ -1,7 +1,7 @@
 'use client';
 
 import { Container } from '@/components/common/container';
-import { SearchResultsListContent } from '@/app/admin/store-client/search-results-list/content';
+import { SearchResultsListContent } from '@/app/example/store-client/search-results-list/content';
 
 export default function SearchResultsListPage() {
   return (

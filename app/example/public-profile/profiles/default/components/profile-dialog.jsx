@@ -13,12 +13,12 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { About } from '@/app/admin/public-profile/profiles/default/components/about';
-import { CommunityBadges } from '@/app/admin/public-profile/profiles/default/components/community-badges';
-import { Connections } from '@/app/admin/public-profile/profiles/default/components/connections';
-import { Contributions } from '@/app/admin/public-profile/profiles/default/components/contributions';
-import { Projects } from '@/app/admin/public-profile/profiles/default/components/projects';
-import { WorkExperience } from '@/app/admin/public-profile/profiles/default/components/work-experience';
+import { About } from '@/app/example/public-profile/profiles/default/components/about';
+import { CommunityBadges } from '@/app/example/public-profile/profiles/default/components/community-badges';
+import { Connections } from '@/app/example/public-profile/profiles/default/components/connections';
+import { Contributions } from '@/app/example/public-profile/profiles/default/components/contributions';
+import { Projects } from '@/app/example/public-profile/profiles/default/components/projects';
+import { WorkExperience } from '@/app/example/public-profile/profiles/default/components/work-experience';
 
 export function ProfileDialog({ open, onOpenChange }) {
   return (

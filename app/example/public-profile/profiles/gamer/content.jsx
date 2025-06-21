@@ -6,9 +6,9 @@ import {
   RiYoutubeLine,
 } from '@remixicon/react';
 import { Dribbble } from 'lucide-react';
-import { Network } from '@/app/admin/public-profile/profiles/company/components/network';
-import { Users } from '@/app/admin/public-profile/profiles/creator/components/users';
-import { CommunityBadges } from '@/app/admin/public-profile/profiles/default/components/community-badges';
+import { Network } from '@/app/example/public-profile/profiles/company/components/network';
+import { Users } from '@/app/example/public-profile/profiles/creator/components/users';
+import { CommunityBadges } from '@/app/example/public-profile/profiles/default/components/community-badges';
 import {
   About,
   Activity,

@@ -11,13 +11,13 @@ import {
   SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
-import { Items } from '@/app/admin/store-admin/components/create-shipping-label-sheet/components/items';
-import { Order } from '@/app/admin/store-admin/components/create-shipping-label-sheet/components/order';
-import { Packaging } from '@/app/admin/store-admin/components/create-shipping-label-sheet/components/packaging';
-import { ShippingDate } from '@/app/admin/store-admin/components/create-shipping-label-sheet/components/shipping-date';
-import { Summary } from '@/app/admin/store-admin/components/create-shipping-label-sheet/components/summary';
+import { Items } from '@/app/example/store-example/components/create-shipping-label-sheet/components/items';
+import { Order } from '@/app/example/store-example/components/create-shipping-label-sheet/components/order';
+import { Packaging } from '@/app/example/store-example/components/create-shipping-label-sheet/components/packaging';
+import { ShippingDate } from '@/app/example/store-example/components/create-shipping-label-sheet/components/shipping-date';
+import { Summary } from '@/app/example/store-example/components/create-shipping-label-sheet/components/summary';
 
-export function StoreAdminCreateShippingLabelSheet({ open, onOpenChange }) {
+export function StoreexampleCreateShippingLabelSheet({ open, onOpenChange }) {
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="lg:w-[940px] sm:max-w-none inset-5 start-auto h-auto rounded-lg p-0 sm:max-w-none [&_[data-slot=sheet-close]]:top-4.5 [&_[data-slot=sheet-close]]:end-5">

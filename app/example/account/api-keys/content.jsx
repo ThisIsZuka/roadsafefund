@@ -6,8 +6,8 @@ import { Faq } from '@/partials/common/faq';
 import { HighlightedPosts } from '@/partials/common/highlighted-posts';
 import { Cloud, Expand, StickyNote, UsersRound } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
-import { ExternalServicesManageApi } from '@/app/admin/account/home/settings-sidebar/components/external-services-manage-api';
-import { DoNotDistrub } from '@/app/admin/account/notifications/components/do-not-distrub';
+import { ExternalServicesManageApi } from '@/app/example/account/home/settings-sidebar/components/external-services-manage-api';
+import { DoNotDistrub } from '@/app/example/account/notifications/components/do-not-distrub';
 import { ApiIntegrations, Webhooks } from './components';
 
 export function AccountApiKeysContent() {

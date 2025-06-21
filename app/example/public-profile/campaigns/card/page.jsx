@@ -15,8 +15,8 @@ import {
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/common/container';
-import { CampaignsContent } from '@/app/admin/public-profile/campaigns/card/content';
-import { PageMenu } from '@/app/admin/public-profile/page-menu';
+import { CampaignsContent } from '@/app/example/public-profile/campaigns/card/content';
+import { PageMenu } from '@/app/example/public-profile/page-menu';
 
 export default function CampaignsCardPage() {
   const image = (

@@ -12,20 +12,20 @@ import {
 } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Scrollspy } from '@/components/ui/scrollspy';
-import { AccountSettingsSidebar } from '@/app/admin/account/home/settings-sidebar/account-basic-sidebar';
-import { AdvancedSettingsAddress } from '@/app/admin/account/home/settings-sidebar/components/advanced-settings-address';
-import { AdvancedSettingsAppearance } from '@/app/admin/account/home/settings-sidebar/components/advanced-settings-appearance';
-import { AdvancedSettingsNotifications } from '@/app/admin/account/home/settings-sidebar/components/advanced-settings-notifications';
-import { AdvancedSettingsPreferences } from '@/app/admin/account/home/settings-sidebar/components/advanced-settings-preferences';
-import { AuthEmail } from '@/app/admin/account/home/settings-sidebar/components/auth-email';
-import { AuthPassword } from '@/app/admin/account/home/settings-sidebar/components/auth-password';
-import { AuthSingleSingOn } from '@/app/admin/account/home/settings-sidebar/components/auth-single-sing-on';
-import { AuthSocialSignIn } from '@/app/admin/account/home/settings-sidebar/components/auth-social-sign-in';
-import { AuthTwoFactor } from '@/app/admin/account/home/settings-sidebar/components/auth-two-factor';
-import { BasicSettings } from '@/app/admin/account/home/settings-sidebar/components/basic-settings';
-import { DeleteAccount } from '@/app/admin/account/home/settings-sidebar/components/delete-account';
-import { ExternalServicesIntegrations } from '@/app/admin/account/home/settings-sidebar/components/external-services-integrations';
-import { ExternalServicesManageApi } from '@/app/admin/account/home/settings-sidebar/components/external-services-manage-api';
+import { AccountSettingsSidebar } from '@/app/example/account/home/settings-sidebar/account-basic-sidebar';
+import { AdvancedSettingsAddress } from '@/app/example/account/home/settings-sidebar/components/advanced-settings-address';
+import { AdvancedSettingsAppearance } from '@/app/example/account/home/settings-sidebar/components/advanced-settings-appearance';
+import { AdvancedSettingsNotifications } from '@/app/example/account/home/settings-sidebar/components/advanced-settings-notifications';
+import { AdvancedSettingsPreferences } from '@/app/example/account/home/settings-sidebar/components/advanced-settings-preferences';
+import { AuthEmail } from '@/app/example/account/home/settings-sidebar/components/auth-email';
+import { AuthPassword } from '@/app/example/account/home/settings-sidebar/components/auth-password';
+import { AuthSingleSingOn } from '@/app/example/account/home/settings-sidebar/components/auth-single-sing-on';
+import { AuthSocialSignIn } from '@/app/example/account/home/settings-sidebar/components/auth-social-sign-in';
+import { AuthTwoFactor } from '@/app/example/account/home/settings-sidebar/components/auth-two-factor';
+import { BasicSettings } from '@/app/example/account/home/settings-sidebar/components/basic-settings';
+import { DeleteAccount } from '@/app/example/account/home/settings-sidebar/components/delete-account';
+import { ExternalServicesIntegrations } from '@/app/example/account/home/settings-sidebar/components/external-services-integrations';
+import { ExternalServicesManageApi } from '@/app/example/account/home/settings-sidebar/components/external-services-manage-api';
 
 export function AccountSettingsModal({ open, onOpenChange }) {
   const mobileMode = useIsMobile();

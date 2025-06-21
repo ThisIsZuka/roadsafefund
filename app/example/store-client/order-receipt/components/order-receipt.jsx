@@ -7,7 +7,7 @@ import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { Card4 } from '@/app/admin/store-client/components/common/card4';
+import { Card4 } from '@/app/example/store-client/components/common/card4';
 
 export function OrderReceipt() {
   return (

@@ -2,7 +2,7 @@
 
 import { Faq } from '@/partials/common/faq';
 import { Help } from '@/partials/common/help';
-import { CurrentSessions } from '@/app/admin/account/security/current-sessions/components/current-sessions';
+import { CurrentSessions } from '@/app/example/account/security/current-sessions/components/current-sessions';
 
 export function AccountCurrentSessionsContent() {
   return (
