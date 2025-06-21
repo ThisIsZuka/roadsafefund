@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 import { ScreenLoader } from '@/components/common/screen-loader';
-import { Demo5Layout } from '../components/layouts/demo5/layout';
+import { AdminLayout } from '../components/layouts/admin/layout';
 
 export default function ProtectedLayout({ children }) {
   const { data: session, status } = useSession();
@@ -20,6 +20,5 @@ export default function ProtectedLayout({ children }) {
     return <ScreenLoader />;
   }
 
-  return session ? <Demo5Layout>{children}</Demo5Layout> : null;
-  // <Demo5Layout>{children}</Demo5Layout>
+  return session ? <AdminLayout>{children}</AdminLayout> : null;
 }

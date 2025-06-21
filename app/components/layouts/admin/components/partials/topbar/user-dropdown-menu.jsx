@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { I18N_LANGUAGES } from '@/i18n/config';
 import {
   BetweenHorizontalStart,
   Coffee,
@@ -12,10 +11,10 @@ import {
   User,
   UserCircle,
   Users,
+  Home,
 } from 'lucide-react';
 import { signOut, useSession } from 'next-auth/react';
 import { useTheme } from 'next-themes';
-import { useLanguage } from '@/providers/i18n-provider';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -34,12 +33,7 @@ import { Switch } from '@/components/ui/switch';
 
 export function UserDropdownMenu({ trigger }) {
   const { data: session } = useSession();
-  const { changeLanguage, language } = useLanguage();
   const { theme, setTheme } = useTheme();
-
-  const handleLanguage = (lang) => {
-    changeLanguage(lang.code);
-  };
 
   const handleThemeToggle = (checked) => {
     setTheme(checked ? 'dark' : 'light');
@@ -54,13 +48,13 @@ export function UserDropdownMenu({ trigger }) {
           <div className="flex items-center gap-2">
             <img
               className="w-9 h-9 rounded-full border border-border"
-              src={'/media/avatars/300-2.png'}
+              src={'/images/admin-avatar.png'}
               alt="User avatar"
             />
 
             <div className="flex flex-col">
               <Link
-                href="/account/home/get-started"
+                href="/admin"
                 className="text-sm text-mono hover:text-primary font-semibold"
               >
                 {session?.user.name || ''}
@@ -78,7 +72,12 @@ export function UserDropdownMenu({ trigger }) {
           </Badge>
         </div>
         <DropdownMenuSeparator />
-
+        <DropdownMenuItem asChild>
+          <Link href="/">
+            <Home />
+            <span>กลับหน้าหลัก</span>
+          </Link>
+        </DropdownMenuItem>
         <DropdownMenuSeparator />
 
         {/* Footer */}

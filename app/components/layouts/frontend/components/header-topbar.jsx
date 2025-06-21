@@ -8,16 +8,10 @@ import { UserDropdownMenu } from '@/partials/topbar/user-dropdown-menu';
 import { MessageCircleMore, MessageSquareDot, Search } from 'lucide-react';
 import { toAbsoluteUrl } from '@/lib/helpers';
 import { Button } from '@/components/ui/button';
-import { StoreClientTopbar } from '@/app/admin/store-client/components/common/topbar';
 
 export function HeaderTopbar() {
-  const pathname = usePathname();
-
   return (
     <>
-      {pathname.startsWith('/store-client') ? (
-        <StoreClientTopbar />
-      ) : (
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-3">
             <SearchDialog
@@ -70,7 +64,6 @@ export function HeaderTopbar() {
             }
           />
         </div>
-      )}
     </>
   );
 }
