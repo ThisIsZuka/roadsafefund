@@ -27,7 +27,7 @@ export function FrontendLayout({ children }) {
 
   useEffect(() => {
     // Set current layout
-    setOption('layout', 'demo2');
+    setOption('layout', 'frontend');
   }, [setOption]);
 
   useBodyClass(`
@@ -50,46 +50,6 @@ export function FrontendLayout({ children }) {
         {!isMobile && <Navbar />}
 
         <main className="grow " role="content">
-          {/* {!pathname.includes('/public-profile/') &&
-            !pathname.includes('/user-management') &&
-            !pathname.includes('/store-client') && ( */}
-
-          {/* <Toolbar>
-            <ToolbarHeading />
-            <ToolbarActions>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button mode="input" variant="outline">
-                    <CalendarDays />
-                    {date?.from ? (
-                      date.to ? (
-                        <>
-                          {format(date.from, 'LLL dd, y')} -{' '}
-                          {format(date.to, 'LLL dd, y')}
-                        </>
-                      ) : (
-                        format(date.from, 'LLL dd, y')
-                      )
-                    ) : (
-                      <span>Pick a date range</span>
-                    )}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-auto p-0" align="end">
-                  <Calendar
-                    initialFocus
-                    mode="range"
-                    defaultMonth={date?.from}
-                    selected={date}
-                    onSelect={setDate}
-                    numberOfMonths={2}
-                  />
-                </PopoverContent>
-              </Popover>
-            </ToolbarActions>
-          </Toolbar> */}
-          
-          {/* )} */}
           {children}
         </main>
 

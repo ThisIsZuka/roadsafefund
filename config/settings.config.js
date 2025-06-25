@@ -22,5 +22,9 @@ export const APP_SETTINGS = {
       headerSticky: true,
       headerStickyOffset: 200,
     },
+    admin: {
+      sidebarCollapse: false,
+      sidebarTheme: 'light',
+    },
   },
 };

@@ -36,7 +36,7 @@ function NavbarDropdownMenuItem({ item }) {
             'hover:text-mono hover:bg-transparent',
             'focus:text-mono focus:bg-transparent',
             'data-[state=open]:bg-transparent data-[state=open]:text-mono',
-            'data-[here=true]:text-mono data-[here=true]:border-mono',
+            'data-[here=true]:text-mono data-[here=true]:border-[#7E6BAF]',
           )}
           data-active={isActive(item.path) || undefined}
           data-here={hasActiveChild(item.children) || undefined}
@@ -55,8 +55,9 @@ function NavbarDropdownMenuItem({ item }) {
                   asChild
                   data-active={isActive(child.path) || undefined}
                   className={cn(
-                    'hover:text-mono hover:bg-transparent',
-                    'focus:text-white focus:bg-[#7E6BAF]',
+                    'hover:text-mono hover:bg-[#bfaeeb]',
+                    'focus:text-white focus:bg-[#bfaeeb]',
+                    'data-[active=true]:bg-[#7E6BAF] data-[active=true]:text-white',
                   )}
                 >
                   <Link href={child.path || ''}>{child.title}</Link>

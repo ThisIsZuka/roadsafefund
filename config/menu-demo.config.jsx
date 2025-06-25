@@ -67,24 +67,24 @@ export const MENU_SIDEBAR = [
       },
       {
         title: 'ข่าวสาร',
-        path: '/news',
+        path: '/demo-card',
       },
       {
         title: 'เลขสวยช่วยเหลือผู้พิการ',
         children: [
           {
             title: 'คู่มือลักษณะอุปกรณ์ฯ',
-            path: '/manuals/device-features',
+            path: '/demo-1',
           },
           {
             title: 'ผู้จำหน่ายอุปกรณ์',
-            path: '/manuals/sellers',
+            path: '/demo-2',
           },
           {
             title: 'ขั้นตอนการยื่นคำขอ',
-            path: '/manuals/application-process',
+            path: '/demo-3',
           },
-          { title: 'แบบคำขอ/ใบรับรองแพทย์', path: '/manuals/forms' },
+          { title: 'แบบคำขอ/ใบรับรองแพทย์', path: '/demo-4' },
         ],
       },
       {
@@ -92,50 +92,50 @@ export const MENU_SIDEBAR = [
         children: [
           {
             title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2560',
-            path: '/projects/y-2560',
+            path: '/demo-a',
           },
           {
             title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2561',
-            path: '/projects/y-2561',
+            path: '/demo-b',
           },
           {
             title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2562',
-            path: '/projects/y-2562',
+            path: '/demo-z',
           },
           { 
             title: 'โครงการใช้เงิน กปถ. ปีงบประมาณ 2563', 
-            path: '/projects/y-2563' 
+            path: '/demo-d' 
           },
         ],
       },
       {
         title: 'เกี่ยวกับ กปถ.',
-        path: '/about',
+        path: '/demo-e',
       },
       {
         title: 'รายงานประจำปี กปถ.',
         children: [
           {
             title: 'รายงานประจำปี 2568',
-            path: '/reports/y-2568',
+            path: '/demo-f',
           },
           {
             title: 'รายงานประจำปี 2567',
-            path: '/reports/y-2567',
+            path: '/demo-g',
           },
           {
             title: 'รายงานประจำปี 2566',
-            path: '/reports/y-2566',
+            path: '/demo-h',
           },
           { 
             title: 'รายงานประจำปี 2565', 
-            path: '/reports/y-2565' 
+            path: '/demo-i' 
           },
         ],
       },
       {
         title: 'วารสารกองทุน',
-        path: '/magazines',
+        path: '/demo-j',
       },
     ],
   },
