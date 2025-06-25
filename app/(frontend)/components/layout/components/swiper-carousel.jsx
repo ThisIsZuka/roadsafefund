@@ -8,50 +8,39 @@ import 'swiper/css/navigation';
 
 const SwiperCarousel = () => {
   return (
-    <div className="overflow-hidden shadow-sm border bg-white">
+    <div className="relative group overflow-hidden">
       <Swiper
-        modules={[Pagination, Navigation, Autoplay]}
-        spaceBetween={30}
+        modules={[Navigation, Autoplay, Pagination]}
+        spaceBetween={0}
         slidesPerView={1}
-        navigation
-        pagination={{ clickable: true }}
-        autoplay={{ delay: 5000 }}
         loop={true}
-        className="w-full h-[300px] lg:h-[600px]"
+        autoplay={{ delay: 5000 }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        pagination={{ clickable: true }}
+        className="w-full"
       >
         {/* ✅ Slide with image */}
         <SwiperSlide>
-          <div
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/slide1.jpg')" }}
-          >
-            <div className="w-full h-full bg-black/30 flex items-center justify-center text-white text-xl font-bold">
-              Slide 1
-            </div>
-          </div>
+          <img
+            src="/images/cover/470674431_995201292638893_1654087712700926781_n.jpg"
+            className="w-full h-full object-contain"
+            alt="slide1"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/images/cover/172129454563_hilight.jpg"
+            className="w-full h-full object-contain"
+            alt="slide2"
+          />
         </SwiperSlide>
 
-        <SwiperSlide>
-          <div
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/slide2.jpg')" }}
-          >
-            <div className="w-full h-full bg-black/30 flex items-center justify-center text-white text-xl font-bold">
-              Slide 2
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/slide3.jpg')" }}
-          >
-            <div className="w-full h-full bg-black/30 flex items-center justify-center text-white text-xl font-bold">
-              Slide 3
-            </div>
-          </div>
-        </SwiperSlide>
+        {/* Navigation Buttons */}
+        <div className="swiper-button-prev !text-black !left-4 !hidden group-hover:!flex" />
+        <div className="swiper-button-next !text-black !right-4 !hidden group-hover:!flex" />
       </Swiper>
     </div>
   );

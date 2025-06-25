@@ -105,7 +105,7 @@ const CardNews = () => {
         <CardHeader>
           <CardTitle>หัวข้อที่น่าสนใจ</CardTitle>
           <Button mode="link" underlined="dashed" asChild>
-            <Link href="/">View All</Link>
+            <Link href="/demo-card">View All</Link>
           </Button>
         </CardHeader>
 
