@@ -1,0 +1,83 @@
+/* homepage.css */
+
+/* Custom Navigation Arrows */
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: var(--swiper-navigation-size); /* ใช้ค่า default ของ swiper */
+  height: var(--swiper-navigation-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #000; /* สีลูกศร */
+}
+
+/* ซ่อนลูกศรบน mobile และแสดงบน desktop */
+@media (max-width: 1023px) { /* สำหรับจอ small/medium */
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    display: none !important;
+  }
+}
+
+/* ตำแหน่งเฉพาะ */
+.swiper-button-prev-custom {
+  left: 4px; /* ปรับได้ตามต้องการ */
+}
+
+.swiper-button-next-custom {
+  right: 4px; /* ปรับได้ตามต้องการ */
+}
+
+/* เพิ่ม Icon สำหรับ Custom Navigation (ถ้าไม่ได้ใช้ default icon) */
+/* ตัวอย่าง: ถ้าต้องการใช้ SVG หรือ Background image */
+.swiper-button-prev-custom::after {
+  content: 'prev'; /* หรือ 'ᐸ' หรือ icon font */
+  font-family: 'swiper-icons'; /* หรือ font icon ของคุณ */
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+
+.swiper-button-next-custom::after {
+  content: 'next'; /* หรือ 'ᐳ' หรือ icon font */
+  font-family: 'swiper-icons'; /* หรือ font icon ของคุณ */
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+
+
+/* Custom Pagination Dots */
+.swiper-pagination-custom {
+  position: relative !important; /* เปลี่ยนเป็น relative เพื่อให้มันอยู่ด้านล่างตามปกติ */
+  bottom: 0 !important; /* ทำให้ bottom เป็น 0 ถ้า position เป็น relative */
+  width: 100% !important;
+  text-align: center;
+  margin-top: 20px; /* เพิ่มระยะห่างจาก Card ด้านบน */
+}
+
+.swiper-pagination-bullet-custom {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #ccc; /* สีปกติ */
+  opacity: 0.8;
+  margin: 0 4px; /* ระยะห่างระหว่างจุด */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active-custom {
+  background: #007aff; /* สี active */
+  opacity: 1;
+}
