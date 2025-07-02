@@ -8,6 +8,8 @@ import { FadeInWhenVisible } from '../components/layout/components/FadeInWhenVis
 import { Container } from '@/components/common/container';
 import { NewsCarousel } from './components/news-carousel';
 import { Divider } from '../../components/public/divider';
+import { EventContent } from './components/event-content';
+import { VideoSectionPage } from './components/video-section-page';
 
 export function LayoutContent() {
   return (
@@ -60,28 +62,22 @@ export function LayoutContent() {
       <Divider />
 
       <FadeInWhenVisible delay={0.6}>
-        <section className="relative bg-white py-20 px-6 lg:px-32 overflow-hidden">
-          {/* ✅ ลวดลายวงกลมม่วงซ้อนหลัง */}
-          <div className="absolute w-[400px] h-[400px] bg-[#7E6BAF]/10 rounded-full top-[-100px] right-[-100px] z-0" />
-
-          <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row items-center gap-10">
-            <div className="flex-1">
-              <h2 className="text-4xl font-bold text-[#7E6BAF] mb-4">ประมูลเลขสวย</h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                เข้าร่วมประมูลทะเบียนรถเลขสวย เพื่อความเป็นสิริมงคล พร้อมสนับสนุนโครงการเพื่อความปลอดภัยทางถนน
-              </p>
-              <a
-                href="/auction"
-                className="inline-block bg-[#7E6BAF] text-white font-semibold px-6 py-2 rounded-full shadow hover:bg-[#6f5fa0] transition"
-              >
-                เริ่มประมูลเลย
-              </a>
-            </div>
-            <div className="flex-1">
-              <img src="/images/thumbnail_3843cca08f03e981e8d9fb75f7d6c86d.png" alt="Auction" className="w-full max-w-md mx-auto" />
+        {/* <EventContent /> */}
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-5 lg:gap-12">
+          <div className="col-span-1 lg:col-span-2">
+            <div className="flex flex-col gap-5 lg:gap-12">
+              <Container>
+                <EventContent />
+              </Container>
             </div>
           </div>
-        </section>
+        </div>
+      </FadeInWhenVisible>
+
+      {/* <ContentPage /> */}
+
+      <FadeInWhenVisible delay={0.6}>
+        <VideoSectionPage />
       </FadeInWhenVisible>
 
       <FadeInWhenVisible delay={0.6}>
